@@ -31,11 +31,7 @@ A simple Drum Pad app created using Kotlin for Android. This app allows users to
 
 This project is licensed under the [MIT License](LICENSE).
 
-## Acknowledgments
-
-Special thanks to [OpenAI](https://openai.com) for providing the necessary guidance and support in creating this app.
-
 ## Contact
 
-For any inquiries or suggestions, please reach out to the author, Ndurere Morris, at ndurere.morris@email.com.
+For any inquiries or suggestions, please reach out to the author, Ndurere Morris, at hamashiachcreatives@gmail.com.
 
