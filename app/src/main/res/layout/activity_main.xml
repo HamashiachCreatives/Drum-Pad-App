@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/poppinsblack"
+        android:text="Drum Pad App"
+        android:textColor="@color/white"
+        android:textSize="32sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/kick_btn"
+        android:layout_width="70dp"
+        android:layout_height="500dp"
+        android:layout_marginEnd="280dp"
+        android:background="@drawable/button_background_two"
+        android:fontFamily="@font/poppinsblack"
+        android:onClick="getSoundAndColor"
+        android:tag="kick_drum"
+        android:text="Kick drum"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.497" />
+
+    <Button
+        android:id="@+id/hihat_btn"
+        android:layout_width="70dp"
+        android:layout_height="500dp"
+        android:layout_marginEnd="4dp"
+        android:background="@drawable/button_background_two"
+        android:fontFamily="@font/poppinsblack"
+        android:onClick="getSoundAndColor"
+        android:tag="hi_hat"
+        android:text="Hi Hats"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.497" />
+
+    <Button
+        android:id="@+id/snare_btn"
+        android:layout_width="180dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="84dp"
+        android:background="@drawable/button_background_three"
+        android:fontFamily="@font/poppinsblack"
+        android:onClick="getSoundAndColor"
+        android:tag="snare"
+        android:text="Snare"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.182" />
+
+    <Button
+        android:id="@+id/floortom_btn"
+        android:layout_width="180dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="84dp"
+        android:background="@drawable/button_background_three"
+        android:fontFamily="@font/poppinsblack"
+        android:onClick="getSoundAndColor"
+        android:tag="floor_tom"
+        android:text="floor tom"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.816" />
+
+    <Button
+        android:id="@+id/crashcymbal_btn"
+        android:layout_width="80dp"
+        android:layout_height="250dp"
+        android:layout_marginEnd="184dp"
+        android:background="@drawable/button_background_one"
+        android:fontFamily="@font/poppinsblack"
+        android:onClick="getSoundAndColor"
+        android:tag="crush_cymbals"
+        android:text="crash cymbals"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.498" />
+
+    <Button
+        android:id="@+id/hightom_btn"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="84dp"
+        android:background="@drawable/button_background_one"
+        android:fontFamily="@font/poppinsblack"
+        android:onClick="getSoundAndColor"
+        android:tag="high_tom"
+        android:text="High Tom"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.354" />
+
+    <Button
+        android:id="@+id/ridecymbals_btn"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="84dp"
+        android:background="@drawable/button_background_one"
+        android:fontFamily="@font/poppinsblack"
+        android:onClick="getSoundAndColor"
+        android:tag="ride_cymbals"
+        android:text="ride cymbals"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.643" />
+
+    <Button
+        android:id="@+id/mediumtom_btn"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="84dp"
+        android:background="@drawable/button_background_one"
+        android:fontFamily="@font/poppinsblack"
+        android:onClick="getSoundAndColor"
+        android:tag="medium_tom"
+        android:text="Medium Tom"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+    <TextView
+        android:id="@+id/txtDeveloper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="664dp"
+        android:fontFamily="@font/poppinsbold"
+        android:text="Developed by Ndurere Morris"
+        android:textColor="@color/white"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
