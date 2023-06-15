@@ -24,8 +24,9 @@ A simple Drum Pad app created using Kotlin for Android. This app allows users to
 
 ## Screenshots
 
-![Screenshot 1](screenshots/screenshot1.png)
-![Screenshot 2](screenshots/screenshot2.png)
+![drum pad 1](https://github.com/HamashiachCreatives/Drum-Pad-App/assets/128135601/3b7198ad-4f93-40d1-815e-2571bfccc250)
+![drum pad 2](https://github.com/HamashiachCreatives/Drum-Pad-App/assets/128135601/d0ff0ec6-47cd-4075-850a-972bcacb3ce2)
+![drum pad](https://github.com/HamashiachCreatives/Drum-Pad-App/assets/128135601/b7cce451-9464-457f-be1f-a04a40949bdf)
 
 ## License
 
